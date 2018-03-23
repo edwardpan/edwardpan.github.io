@@ -156,7 +156,7 @@
 
         
         <a href="/2018/03/23/高斯消元和矩阵消元/" class="archive-article-date">
-  	<time datetime="2018-03-23T02:04:27.899Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-23</time>
+  	<time datetime="2018-03-23T02:10:19.822Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-23</time>
 </a>
         
       </header>
@@ -164,8 +164,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="高斯消元">高斯消元</h1>
-高斯消元是线性方程组求解时最常用的求解方法，使用方程组中的某一个方程乘以一定系数后被另一方程减，以消除另一方程中的变量，一步一步简化线性方程组，让线性方程组被简化为倒三角形式，最终能求解方程组中所有变量的方法。 如下方程经过高斯消元后的结果： $
-<span class="math display">\[\begin{equation}
+<p>高斯消元是线性方程组求解时最常用的求解方法，使用方程组中的某一个方程乘以一定系数后被另一方程减，以消除另一方程中的变量，一步一步简化线性方程组，让线性方程组被简化为倒三角形式，最终能求解方程组中所有变量的方法。 如下方程经过高斯消元后的结果： <span class="math display">\[
+\begin{equation}
 \left\{
 \begin{aligned}
 x+y-3z=5 \\
@@ -189,9 +189,9 @@ y+11z=-12 \\
 21z=-18
 \end{aligned}
 \right.
-\end{equation}\]</span>
-$ 最后一个方程组即为倒三角形，至此就可以通过代入法一步一步计算出<span class="math inline">\(x,y,z\)</span>的值。 代入运算得出<span class="math inline">\(x,y,z\)</span>的值： $
-<span class="math display">\[\begin{equation}
+\end{equation}
+\]</span> 最后一个方程组即为倒三角形，至此就可以通过代入法一步一步计算出<span class="math inline">\(x,y,z\)</span>的值。 代入运算得出<span class="math inline">\(x,y,z\)</span>的值： <span class="math display">\[
+\begin{equation}
 \left\{
 \begin{aligned}
 x+y-3z=5 \\
@@ -207,8 +207,10 @@ y=-\frac{18}{7} \\
 z=-\frac{6}{7}
 \end{aligned}
 \right.
-\end{equation}\]</span>
-<p>$ # 矩阵消元 今天在观看网易公开课中麻省理工的线性代数课程<a href="http://open.163.com/movie/2010/11/P/P/M6V0BQC4M_M6V29EGPP.html" target="_blank" rel="noopener">矩阵消元</a>时见识到了另一种计算方法，即把线性方程组看作为矩阵的方式，通过矩阵变换运算来解线性方程组，老师也提倡学习了线性代数就要用线性代数的思维来解决问题。 把线性方程组看作是<span class="math inline">\(A\pmb{x}=b\)</span>形式的矩阵运算： <span class="math display">\[
+\end{equation}
+\]</span></p>
+<h1 id="矩阵消元">矩阵消元</h1>
+<p>今天在观看网易公开课中麻省理工的线性代数课程<a href="http://open.163.com/movie/2010/11/P/P/M6V0BQC4M_M6V29EGPP.html" target="_blank" rel="noopener">矩阵消元</a>时见识到了另一种计算方法，即把线性方程组看作为矩阵的方式，通过矩阵变换运算来解线性方程组，老师也提倡学习了线性代数就要用线性代数的思维来解决问题。 把线性方程组看作是<span class="math inline">\(A\pmb{x}=b\)</span>形式的矩阵运算： <span class="math display">\[
 \left[
 \begin{matrix}
 1 &amp; 1 &amp; -3 \\
